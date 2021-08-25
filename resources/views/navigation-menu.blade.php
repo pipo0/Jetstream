@@ -16,10 +16,10 @@
                         Inicio
                     </x-jet-nav-link>
 
-
-                    <x-jet-nav-link href="" :active="request()->routeIs('blog')">
-                        Contactos
+                    <x-jet-nav-link href="{{ route('admin') }}" :active="request()->routeIs('admin')">
+                        Panel Administrativo
                     </x-jet-nav-link>
+
 
                 </div>
             </div>
